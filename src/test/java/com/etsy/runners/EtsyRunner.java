@@ -1,4 +1,4 @@
-package net.seamlessly.runners;
+package com.etsy.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,11 +12,11 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "net/seamlessly/step_definitions",
-        tags = "@SEAMLES10-697",
+        glue = "com/etsy/step_definitions",
+        tags = "",
         stepNotifications = true,
         dryRun = false,
         publish = false
 )
-public class SeamlesslyRunner {
+public class EtsyRunner {
 }

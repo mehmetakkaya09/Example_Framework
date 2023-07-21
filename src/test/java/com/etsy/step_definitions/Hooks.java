@@ -1,10 +1,10 @@
-package net.seamlessly.step_definitions;
+package com.etsy.step_definitions;
 
+import com.etsy.utility.Driver;
+import com.etsy.utility.ConfigurationReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import net.seamlessly.utility.ConfigurationReader;
-import net.seamlessly.utility.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -31,7 +31,7 @@ public class Hooks {
                 e.printStackTrace();
             }
         }
-        Driver.closeDriver();
+        //Driver.closeDriver();
     }
 
 

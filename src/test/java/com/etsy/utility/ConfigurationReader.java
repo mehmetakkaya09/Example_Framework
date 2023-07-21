@@ -1,4 +1,4 @@
-package net.seamlessly.utility;
+package com.etsy.utility;
 
 import java.io.FileInputStream;
 import java.io.IOException;
